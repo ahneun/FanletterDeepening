@@ -1,14 +1,17 @@
 import AddForm from "components/AddForm";
 import Header from "components/Header";
+import Layout from "components/Layout";
 import LetterList from "components/LetterList";
 import styled from "styled-components";
+// import Profile from "./Profile";
 
 export default function Home() {
   return (
     <Container>
+      <Layout />
       <Header />
       <AddForm />
-      <LetterList />
+      <LetterList />   
     </Container>
   );
 }

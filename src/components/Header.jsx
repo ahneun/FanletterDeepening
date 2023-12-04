@@ -20,6 +20,15 @@ const Container = styled.section`
   padding: 24px;
 `;
 
+// const HeaderStyled = styled.div`
+//   display: flex;
+//   /* justify-content: space-between; */
+//   width: 100%;
+//   gap: 12px;
+//   background-color: grey;
+//   padding: 12px 24px;
+// `
+
 const Title = styled.h1`
   font-size: 36px;
   font-weight: 700;
